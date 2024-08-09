@@ -1,0 +1,70 @@
+img{ width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.allform {
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       z-index: -1px;
+       position: absolute;
+      background-color:rgba(211, 211, 211, 0.703);
+       
+      width: 350px;
+      height: 330px;
+      border-radius: 10px;
+      backdrop-filter: bulr(-10px);
+    
+        }
+        #form{ display: flex ;
+               justify-content: center;
+               flex-direction: column;
+               align-items: center;
+               outline: none;
+               border: none;
+        }
+        #form div {
+              margin-top: 20px;
+        }
+        input[ type=password]{ outline: none;}
+        input[type=text]{ outline: none;}
+        .checkbox{
+              display: flex;
+              justify-content: space-around;
+             margin-top: 20px;
+
+        }
+       
+            
+        
+h1 { text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}     
+#name,#Password { width: 300px;
+                  height: 30px;
+                  border-radius: 5px;
+                  background-color: rgba(255, 255, 255, 0.742);
+                  border: none;
+                  text-indent: 10px;
+                  color: rgb(165, 156, 156);
+                  backdrop-filter: bulr(-10px);
+
+                }
+ 
+   button { width: 300px;
+            height: 30px;
+            border: none;
+            color: white;
+            background-color: green;
+            font-size: medium;
+            position: relative;
+           margin-top: 10px;
+           backdrop-filter: bulr(-20px);
+        }             
+ button:hover{ background-color: gray;}  
+
+ a{ text-decoration: none;
+      
+}                
+
